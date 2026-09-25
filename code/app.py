@@ -1431,13 +1431,21 @@ textarea::placeholder {
 
 .verse-card {
 
-    background:
+    background: #151321 !important;
 
-        linear-gradient(
-            145deg,
-            rgba(40,34,58,.97),
-            rgba(16,15,25,.98)
-        );
+    border: 1px solid rgba(255,255,255,.18);
+
+    border-radius: 24px;
+
+    padding: 34px;
+
+    margin-top: 25px;
+
+    box-shadow:
+        0 25px 80px rgba(0,0,0,.50);
+
+    color: #ffffff !important;
+}
 
     border:
 
@@ -1468,7 +1476,6 @@ textarea::placeholder {
         Georgia,
         "Times New Roman",
         serif;
-
     font-size: 24px;
 
     line-height: 1.7;
